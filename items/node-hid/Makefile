@@ -69,6 +69,12 @@ update:
 	@git push
 	@echo "✨ Mise à jour terminée✨"
 
+commande1: fichier1 fichier2
+        # Commandes à exécuter pour créer commande1 à partir de fichier1 et fichier2
+        commande_1
+        commande_2
+
+
 init: gantt phase1 phase2 phase3 phase4 phase5 phase6 phase7 phase8
 # Magic COMPILER groq quantum
 gantt:

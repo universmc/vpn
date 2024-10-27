@@ -1,4 +1,8 @@
 #!/bin/bash
+# BUILD
+
+mkdir build dev bin proc boot media mnt srv home var sbin root tmp use map Volumes Users .assets var opt src
+echo "Creation du repertoire unix"
 
 # Fonction pour générer un nombre aléatoire de 75 chiffres
 # Affichage de l'heure et du mode de développement
